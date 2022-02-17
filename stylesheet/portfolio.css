@@ -541,17 +541,20 @@ button:hover, .form-container .btn:hover {
 }
 /***** End of Contact Form Styling *****/
 
+
+/* Slide show for Unity copy, rinse repeat with integers increasing*/
+
 #Slideshow_Background1 {
     background: rgba(255, 255, 255, 0.35); /* This creates a slightly transparent white background that's palced over the video in the background */
 }
 
-.mySlides {
+.mySlides1 {
     display: none; /* This prevents the images from being displayed, we will use JS to display these */
 }
 
 /* Slideshow section / container */
 #Slideshow_Container1 {
-    width: 20.5vw; /* Relative sizing of the container for the slidewshow set to 39.5% of the viewport width */
+    width: 30vw; /* Relative sizing of the container for the slidewshow set to 39.5% of the viewport width */
     height: auto; /* The height of the container is automatically adjusted based on the content it is displaying */
     padding-top: 4%; /* Adds a small padding to the top of the slideshow container */
     position: relative; /* This sets the container relative to its normal positioning */
