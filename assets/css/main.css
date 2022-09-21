@@ -2633,5 +2633,5 @@ input, select, textarea {
 	}
 
 	video {
-		max-width: 940px;
+		max-height: 600px;
 	}
